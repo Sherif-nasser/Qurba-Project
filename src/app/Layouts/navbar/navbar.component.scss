@@ -1,0 +1,9 @@
+
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
+
+#navbarSupportedContent{
+    justify-content: space-between;
+    ul li:first-of-type{
+        margin-left: 20px;
+    }
+}

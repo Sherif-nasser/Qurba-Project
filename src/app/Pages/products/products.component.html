@@ -1,0 +1,21 @@
+<div class="container-fluid ">
+
+    <div class="container col-lg-4">
+
+    </div>
+
+    <div class="container col-lg-8 mt-5">
+        <div class="row">
+            <div class="card-container col-lg-4" *ngFor="let item of Items"> 
+                <div class="card" style="width: 18rem;height: 100%;">
+                    <img [src]="item.path" class="card-img-top" [alt]="item.title" style="height:50%;margin-bottom: 1rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">{{item.title}}</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
